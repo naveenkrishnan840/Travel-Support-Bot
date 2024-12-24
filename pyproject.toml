@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "Support Bot Langgraph"
+version = "0.1.0"
+description = "Support Bot Langgraph"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "chat_bot_langgraph"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain_community = "^0.3.6"
+langchain_google_genai = "^2.0.4"
+langchain_text_splitters = "^0.3.2"
+langgraph = "^0.2.46"
+cohere = "^5.11.3"
+FlashRank = "^0.2.9"
+pytz = "^2024.2"
+weaviate-client = "4.4rc1"
+pandas = "2.2.3"
+langchain-cohere = "0.3.1"
+langsmith = "0.1.144"
+langchain-nomic = "0.1.4"
+fastapi = "0.115.5"
+pydantic = "2.10.2"
+uvicorn = "^0.20.0"
+itsdangerous = "2.2.0"
+PyMySQL = "1.1.1"
+faiss-cpu = "1.9.0.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
