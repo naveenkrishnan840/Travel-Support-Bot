@@ -452,8 +452,8 @@ async def generate_bot_message(request: Request, bot_request: BotRequest):
 # @app.on_event("startup")
 # async def set_env_var():
 app.include_router(api_router)
-# local changes
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8003)
+# # local changes
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8003)
 
